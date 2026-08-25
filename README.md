@@ -10,6 +10,16 @@ Software engineering student based in Japan, building reliable tools for web wor
 | [QA Sentinel](https://github.com/T98765SREDT/qa-sentinel) | Concurrent API regression checks, retries, assertions, redaction, HTML/JSON reports | Python · HTTP · Testing |
 | [EvalForge](https://github.com/T98765SREDT/evalforge) | Explainable AI-response evaluation, pure scoring logic, local-first browser workflow, exports | JavaScript · HTML/CSS · Node test |
 
+## Independent software engineering project experience
+
+I build portfolio projects end to end: clarify the workflow, choose appropriate boundaries, implement the product, test high-risk behavior, document trade-offs, and publish a reproducible codebase. These are independent projects rather than employment claims; each responsibility below is backed by the linked repository.
+
+- **Full-stack development — JobFlow:** designed a REST-style API, server-side validation, transactional SQLite persistence, a responsive browser workflow, and automated behavior tests.
+- **QA automation — QA Sentinel:** built a concurrent HTTP test runner with retries, structured assertions, secret-safe reporting, and JSON/HTML/JUnit artifacts that fit into CI workflows.
+- **AI evaluation tooling — EvalForge:** implemented an explainable scoring model, local-first persistence, structured exports, and unit-tested business logic for review workflows.
+
+Read the detailed, resume-ready responsibility statements in [PROJECT-EXPERIENCE.md](PROJECT-EXPERIENCE.md).
+
 ## Engineering approach
 
 - Build small systems with explicit boundaries between UI, business logic, persistence, and reporting.
@@ -25,7 +35,7 @@ Open to worldwide remote contract, freelance, and entry-level opportunities in s
 
 ## Verification
 
-Each project includes a local quickstart, automated tests, an MIT license, and a GitHub Actions workflow. The repositories are designed to be read as engineering artifacts: start with the README, run the tests, then inspect the focused modules.
+Each project includes a local quickstart, automated tests, an MIT license, and a GitHub Actions workflow. Current local verification: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. The repositories are designed to be read as engineering artifacts: start with the README, run the tests, then inspect the focused modules.
 
 ## Contact
 
