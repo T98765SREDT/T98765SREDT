@@ -33,7 +33,7 @@ This page presents independent project work in a resume-friendly format. It is i
 
 ### EvalForge — Offline-First AI Response Evaluation Dashboard
 
-[Repository](https://github.com/T98765SREDT/evalforge) · JavaScript · HTML/CSS · Node Testing
+[Repository](https://github.com/T98765SREDT/evalforge) · [Live demo](https://t98765sredt.github.io/evalforge/) · JavaScript · HTML/CSS · Node Testing
 
 - Built a local-first review workspace for comparing AI or code-review responses on accuracy, relevance, clarity, completeness, and safety.
 - Isolated scoring and export behavior in pure modules, so weighted verdicts, incomplete rubrics, tie thresholds, CSV escaping, and JSON output are verified without browser automation.

@@ -8,7 +8,7 @@ Software engineering student based in Japan, building reliable tools for web wor
 | --- | --- | --- |
 | [JobFlow](https://github.com/T98765SREDT/jobflow) | Full-stack CRUD workflow, REST-style APIs, validation, SQLite persistence, responsive UI | Python · SQLite · JavaScript |
 | [QA Sentinel](https://github.com/T98765SREDT/qa-sentinel) | Concurrent API regression checks, retries, assertions, redaction, HTML/JSON reports | Python · HTTP · Testing |
-| [EvalForge](https://github.com/T98765SREDT/evalforge) | Explainable AI-response evaluation, pure scoring logic, local-first browser workflow, exports | JavaScript · HTML/CSS · Node test |
+| [EvalForge](https://github.com/T98765SREDT/evalforge) · [Live demo](https://t98765sredt.github.io/evalforge/) | Explainable AI-response evaluation, pure scoring logic, local-first browser workflow, exports | JavaScript · HTML/CSS · Node test |
 
 ## Independent software engineering project experience
 
