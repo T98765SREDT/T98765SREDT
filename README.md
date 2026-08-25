@@ -6,7 +6,7 @@ Software engineering student based in Japan, building reliable tools for web wor
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| [JobFlow](https://github.com/T98765SREDT/jobflow) | Full-stack CRUD workflow, REST-style APIs, validation, SQLite persistence, responsive UI | Python · SQLite · JavaScript |
+| [JobFlow](https://github.com/T98765SREDT/jobflow) · [Interactive preview](https://t98765sredt.github.io/jobflow/static/?demo=1) | Full-stack CRUD workflow, REST-style APIs, validation, SQLite persistence, responsive UI | Python · SQLite · JavaScript |
 | [QA Sentinel](https://github.com/T98765SREDT/qa-sentinel) | Concurrent API regression checks, retries, assertions, redaction, HTML/JSON reports | Python · HTTP · Testing |
 | [EvalForge](https://github.com/T98765SREDT/evalforge) · [Live demo](https://t98765sredt.github.io/evalforge/) | Explainable AI-response evaluation, pure scoring logic, local-first browser workflow, exports | JavaScript · HTML/CSS · Node test |
 
@@ -35,7 +35,7 @@ Open to worldwide remote contract, freelance, and entry-level opportunities in s
 
 ## Verification
 
-Each project includes a local quickstart, automated tests, an MIT license, and a GitHub Actions workflow. Current local verification: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. The repositories are designed to be read as engineering artifacts: start with the README, run the tests, then inspect the focused modules.
+Each project includes a local quickstart, automated tests, an MIT license, and a GitHub Actions workflow. Current local verification: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. JobFlow and EvalForge also have clearly labelled interactive browser previews; QA Sentinel publishes a generated report example. The repositories are designed to be read as engineering artifacts: start with the README, run the tests, then inspect the focused modules.
 
 ## Contact
 
