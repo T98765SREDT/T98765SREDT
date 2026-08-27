@@ -1,6 +1,6 @@
 # Haoran Tan · Software Engineering Portfolio
 
-Software engineering student based in Japan, building reliable tools for web workflows, API quality, and AI-response evaluation.
+Software engineering student based in Japan. I build small tools for web workflows, API testing, and AI-response evaluation.
 
 ## Selected engineering projects
 
@@ -10,22 +10,22 @@ Software engineering student based in Japan, building reliable tools for web wor
 | [QA Sentinel](https://github.com/T98765SREDT/qa-sentinel) | Concurrent API regression checks, retries, assertions, redaction, HTML/JSON reports | Python · HTTP · Testing |
 | [EvalForge](https://github.com/T98765SREDT/evalforge) · [Live demo](https://t98765sredt.github.io/evalforge/) | Explainable AI-response evaluation, pure scoring logic, local-first browser workflow, exports | JavaScript · HTML/CSS · Node test |
 
-## Independent software engineering project experience
+## Independent project work
 
-I build portfolio projects end to end: clarify the workflow, choose appropriate boundaries, implement the product, test high-risk behavior, document trade-offs, and publish a reproducible codebase. These are independent projects rather than employment claims; each responsibility below is backed by the linked repository.
+I use these projects to practise the same habits I would bring to a development team: understand the workflow, keep the code organized, test important behavior, and write down how to run the result. They are personal projects, not employment experience, and every description below can be checked in the linked repository.
 
-- **Full-stack development — JobFlow:** designed a REST-style API, server-side validation, transactional SQLite persistence, a responsive browser workflow, and automated behavior tests.
-- **QA automation — QA Sentinel:** built a concurrent HTTP test runner with retries, structured assertions, secret-safe reporting, and JSON/HTML/JUnit artifacts that fit into CI workflows.
-- **AI evaluation tooling — EvalForge:** implemented an explainable scoring model, local-first persistence, structured exports, and unit-tested business logic for review workflows.
+- **JobFlow:** built a REST-style API, server-side validation, SQLite storage, a responsive browser interface, and 10 automated tests.
+- **QA Sentinel:** built a concurrent HTTP test runner with retries, clear assertions, credential redaction, and HTML, JSON, and JUnit reports.
+- **EvalForge:** built a browser-based AI review tool with weighted scoring, local history, JSON/CSV export, and tested scoring logic.
 
 Read the detailed, resume-ready responsibility statements in [PROJECT-EXPERIENCE.md](PROJECT-EXPERIENCE.md).
 
-## Engineering approach
+## How I work
 
-- Build small systems with explicit boundaries between UI, business logic, persistence, and reporting.
-- Test the behavior that carries risk: validation, persistence, scoring, serialization, retries, and error handling.
-- Prefer clear, dependency-light implementations when they make a project easier to audit, run, and explain.
-- Use AI-assisted development responsibly: review generated output, verify behavior, and keep the final implementation understandable.
+- Keep the interface, application logic, storage, and reporting code separate when that makes changes easier to test.
+- Add tests for validation, persistence, scoring, exports, retries, and error handling.
+- Keep dependencies small when the Python standard library or browser APIs are enough.
+- Review AI-assisted code, run the tests, and make sure I can explain the code I keep.
 
 ## Current focus
 
@@ -35,7 +35,7 @@ Open to worldwide remote contract, freelance, and entry-level opportunities in s
 
 ## Verification
 
-Each project includes a local quickstart, automated tests, an MIT license, and a GitHub Actions workflow. Current local verification: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. JobFlow and EvalForge also have clearly labelled interactive browser previews; QA Sentinel publishes a generated report example. The repositories are designed to be read as engineering artifacts: start with the README, run the tests, then inspect the focused modules.
+Each project includes setup instructions, automated tests, an MIT license, and a GitHub Actions workflow. Current local results: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. JobFlow and EvalForge include browser demos, while QA Sentinel includes a generated report example. Each README shows the quickest way to run the project and verify its main behavior.
 
 ## Contact
 
