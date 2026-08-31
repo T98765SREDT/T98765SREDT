@@ -12,9 +12,9 @@ Software engineering student based in Japan. I build small tools for web workflo
 
 ## Independent project work
 
-I use these projects to practise the same habits I would bring to a development team: understand the workflow, keep the code organized, test important behavior, and write down how to run the result. They are personal projects, not employment experience, and every description below can be checked in the linked repository.
+I build these projects the way I would approach a small team task: first understand the workflow, then keep the code organized, test the important behavior, and document how someone else can run it. They are personal projects, not employment experience, and every description below can be checked in the linked repository.
 
-- **JobFlow:** built a REST-style API, server-side validation, SQLite storage, a responsive browser interface, and 10 automated tests.
+- **JobFlow:** built a REST-style API, server-side validation, SQLite storage, a responsive browser interface, and 102 local automated checks.
 - **QA Sentinel:** built a concurrent HTTP test runner with retries, clear assertions, credential redaction, and HTML, JSON, and JUnit reports.
 - **EvalForge:** built a browser-based AI review tool with weighted scoring, local history, JSON/CSV export, and tested scoring logic.
 
@@ -35,7 +35,7 @@ Open to worldwide remote contract, freelance, and entry-level opportunities in s
 
 ## Verification
 
-Each project includes setup instructions, automated tests, an MIT license, and a GitHub Actions workflow. Current local results: JobFlow **10 tests**, QA Sentinel **24 tests**, and EvalForge **10 tests**. JobFlow and EvalForge include browser demos, while QA Sentinel includes a generated report example. Each README shows the quickest way to run the project and verify its main behavior.
+Each project includes setup instructions, automated tests, an MIT license, and a GitHub Actions workflow. Current local results: JobFlow **102 checks**, QA Sentinel **149 tests**, and EvalForge **156 tests**. JobFlow and EvalForge include browser demos, while QA Sentinel includes a generated report example. Each README shows the quickest way to run the project and verify its main behavior.
 
 ## Contact
 
